@@ -1,6 +1,8 @@
 # PG Backer
 
-**PG Backer** is a graphical tool for **backing up PostgreSQL databases** with an intuitive **wxPython** user interface. The application allows users to configure backup settings, select dump file locations, and view **real-time logs** of backup operations.
+**PG Backer** is a graphical tool for **backing up PostgreSQL databases** with an intuitive **native** user interface.
+The application allows users to configure backup settings, 
+select dump file locations, and view **real-time logs** of backup operations.
 
 ![PG Backer](assets/screen.png)
 
