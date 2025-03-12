@@ -1,0 +1,58 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs and debugging files
+*.log
+*.out
+*.err
+*.bak
+debug.log
+
+# Coverage reports
+.coverage
+htmlcov/
+*.cover
+
+# Build and distribution files
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Pytest cache
+.pytest_cache/
+
+# Mypy cache
+.mypy_cache/
+
+# Temporary files
+*.swp
+*.swo
+*~

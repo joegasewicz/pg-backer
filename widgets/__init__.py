@@ -1,0 +1,1 @@
+from widgets.log_panel import LogPanel
