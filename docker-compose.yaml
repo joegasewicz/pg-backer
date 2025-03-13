@@ -1,0 +1,14 @@
+services:
+  postgres_etl:
+    image: "postgres:latest"
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: pgbacker_db
+    volumes:
+      - ./db-data_local/postgres_db_volume/:/var/lib/postgresql/data/
+
+volumes:
+  postgres_db:
