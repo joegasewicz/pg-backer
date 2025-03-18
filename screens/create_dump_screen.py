@@ -55,9 +55,6 @@ class CreateDumpScreen(BaseScreen):
 
         self.main_sizer.Add(self.button_sizer, flag=wx.ALL | wx.EXPAND, border=30)
 
-        # self.SetSizer(self.main_sizer)
-        # self.main_sizer.Fit(self)
-        # self.Center()
         self.SetSizerAndFit(self.main_sizer)
 
     def label_and_text_field(self, *, text: str):
